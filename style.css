@@ -1,0 +1,27 @@
+  
+body{
+    box-sizing: border-box;
+     margin: 0%;
+     padding:0%
+}
+h1{
+    color:blue;
+    text-align: left;
+    
+}
+.logo{ 
+    height:95;
+    width: 80;
+    float:right;
+    
+}
+.details{
+    text-align:right;
+    padding: left 0;
+    color: blue;
+}
+
+.details hr{
+    transform: rotate(90deg);
+    
+}    
