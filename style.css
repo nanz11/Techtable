@@ -1,135 +1,147 @@
-body{
-    font-size:19;
-}
-h1{
-    padding-top:60px;
-    padding-left: 100px;
-    color:rgb(12, 12, 12);
-    font-family:Arial, Helvetica, sans-serif;
-    width:60%;
-}
-.lg{
-    height:150px;
-}
-.gl{
-    float:left;
-    width:70%;
-}
-.gg{
-    float:left;
-    width:30%;
-}
-img{
-    width:8cm;
-    padding-top:1.5cm;
-}
-
-.mo{
-    font-size: 28;
-    padding-top:2cm;
-    padding-left:2cm;
-    height:900px;
-}
-.tl{
-    float:left;
-    width:30%;
-    height:200px;
-}
-.tr{
-    width:30%;
-    height:200px;
-    float:left;
-}
-.fa{
+body {
+    font-size: 15;
+  }
+  h1 {
+    padding-top: 60px;
+    padding-left: 125px;
+    color: rgb(15, 15, 15);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%;
+  }
+  .top {
+    height: 100px;
+  }
+  .top1 {
+    float: left;
+    width: 63%;
+  }
+  .top2 {
+    float: left;
+    width: 30%;
+  }
+  img {
+    width: 10cm;
+    padding-top: 1.5cm;
+  }
+  
+  .line {
+    font-size: 20;
+    padding-top: 2cm;
+    padding-left: 2cm;
+    height: 100px;
+  }
+  .line1 {
+    float: left;
+    width: 30%;
+    height: 200px;
+  }
+  .line2 {
+    width: 30%;
+    height: 200px;
+    float: left;
+  }
+  .fa {
     padding: 10px;
     font-size: 36px;
     width: 40px;
     text-align: center;
     text-decoration: none;
-     margin: 5px 2px;
-}
-.fa:hover{
+    margin: 5px 2px;
+  }
+  .fa:hover {
     opacity: 0.8;
-}
-
-.fa-whatsapp{
+  }
+  
+  .fa-whatsapp {
     background: rgb(41, 196, 36);
-    color:white;
-    border-radius: 6px;
-}
-.fa-linkedin{
-    background: rgb(65, 106, 219);
-    color:white;
-    border-radius: 60%;
-}
-.fa-youtube{
+    color: white;
+    border-radius: 4px;
+  }
+  .fa-youtube {
     background: rgb(223, 21, 21);
-    color:white;
+    color: white;
+    border-radius: 10%;
+  }
+  .fa-linkedin {
+    background: rgb(65, 106, 219);
+    color: white;
+    border-radius: 50%;
+  }
+  .fa-instagram {
+    background: linear-gradient(rgb(127, 12, 138), rgb(212, 77, 99), yellow);
+    color: white;
     border-radius: 20%;
-}
-.fa-instagram{
-    background: linear-gradient(rgb(127, 12, 138),rgb(212, 77, 99),yellow);
-    color:white;
-    border-radius: 20%;
-}
-.fa-facebook{
-    background: rgb(86, 86, 179);
-    color:white;
-    border-radius: 60%;
-}
-.fa-telegram{
+  }
+  .fa-telegram {
     background: rgb(72, 163, 190);
-    color:white;
+    color: white;
     border-radius: 20%;
-}
-.ml{
-    background-color: rgb(68, 8, 189);
-    float:left;
-    width:0.18%;
-    height:10cm;
-}
-.mr{
-    padding:20px;
-    padding-right:50px;
-    width:30%;
-    float:left;
-    
-}
-.mr m{
-    color: rgb(106, 19, 236);
-}
-@media screen and (max-width:521px){
-
-    .lg{
-        height:6cm;
-        font-size:12;
+  }
+  .fa-facebook {
+    background: rgb(86, 86, 179);
+    color: white;
+    border-radius: 60%;
+  }
+  .line3 {
+    background-color: rgb(10, 10, 10);
+    float: left;
+    width: 0.2%;
+    height: 8cm;
+  }
+  .line4 {
+    padding: 20px;
+    padding-right: 50px;
+    width: 30%;
+    float: left;
+  }
+  .line4 m {
+    color: rgb(159, 104, 223);
+  }
+  @media screen and (max-width: 900px) {
+   
+    .top {
+      height: 5cm;
+      font-size: 30;
+      display: grid;
     }
-    .gl{
-        width:100%;
-        height:3cm;
-
+    h1 {
+      padding-top: 1.5cm;
+      padding-left: 1cm;
+      font-size: 16;
     }
-    .gg{
-        width:100%;
-        height:3cm;
+    .top1 {
+      height: 2cm;
     }
-    img{
-        padding-left: 3cm;
-        width:5cm;
+    .top2 {
+      height: 2cm;
     }
-    .mo{
-        height:50cm;
-        width:100%;
+    img {
+      padding-left: 1cm;
+      width: 6cm;
     }
-    .tl{
-        float:bottom;
-        width:100%;
-        height:20%;
+    .line {
+      padding-left: 0px;
+      height: 26cm;
+      font-size: 19;
     }
-    .tr{
-       float:bottom; 
-       width:100%;
-        height:20%;
+    .fa {
+      font-size: 18;
+      width: 18px;
     }
-
-}
+    .line1 {
+      float: bottom;
+      width: 100%;
+    }
+    .line2 {
+      float: bottom;
+      width: 100%;
+    }
+    .line3{
+      float: bottom;
+      width: 0%
+    }
+    .line4 {
+      padding-left: 10px;
+      padding-top: 1.8cm;
+    }
+  }
